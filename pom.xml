@@ -4,7 +4,7 @@
 
         <groupId>com.mt</groupId>
         <artifactId>maven-stanalone-application</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.45-SNAPSHOT</version>
         <packaging>jar</packaging>
 
         <name>maven-stanalone-application</name>
@@ -18,7 +18,7 @@
         <description>Maven Standalone Application</description>
 
         <properties>
-                <sonar.host.url>http://35.154.242.68:9000/</sonar.host.url>
+                <sonar.host.url>http://44.218.202.77/:9000/</sonar.host.url>
                 <sonar.login>admin</sonar.login>
                 <sonar.password>admin</sonar.password>
                 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
