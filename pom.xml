@@ -52,6 +52,20 @@
                 <url>//github.com/LandmarkTechnology/maven-standalone-application/issues</url>
         </issueManagement>
         -->
+        <distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Landmark Technologies Releases Nexus Repository</name>
+	      <url>http://44.218.37.240:8081/repository/msa-releases/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Landmark Technologies Snapshot Nexus Repository</name>
+	      <url>http://44.218.37.240:8081/repository/msa-snapshots/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
         <build>
           <plugins>
             <plugin>
